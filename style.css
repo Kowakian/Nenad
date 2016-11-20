@@ -1,0 +1,178 @@
+body{
+	font-family:sans-serif;
+	color: #484846;
+}
+
+#search {
+	width: 100%;
+    height: 25%;
+    padding: 30px 0px 30px;
+	margin-left:42.5%;
+}
+
+/* button */
+
+button {
+   
+    text-align: center;
+    padding: 5px 30px 5px 25px;
+    color: #000;
+    display: inline-block;
+    border: 2px solid #3e3e3e;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+	border-width;2px;
+	width:15%;
+}
+
+button:hover {
+    color: #e21937;
+    display: inline-block;
+    background-color: #fff;
+}
+
+button:focus {
+	outline:0;
+	
+}
+
+/* error */
+
+#error {
+	width: 80%;
+    height: 15%;
+	background-color:rgb(187, 187, 187);
+	border-radius:5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+    color:#ooo;
+	border-style:solid;
+	border-color:#666;
+	font-weight:700;
+	font-size:25px;
+	
+}
+
+#error p {
+    padding-left: 30px;	
+}
+
+/* wrapper */
+
+#wrapper {
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-color:#3e3e3e;
+	border-radius: 5px;
+}
+
+#wrapper #image {
+	width:640px;
+	float:left;
+	margin-right:30px;
+}
+
+#wrapper #image img{
+
+    width:640px;
+    height:480px;
+	border-right-style: solid;
+    border-right-color: #666;
+}
+
+#content {
+	padding-right:30px;
+	height: 480px;
+	border-bottom-color:#666;
+	border-bottom-style:solid;
+	background-color:rgb(246, 246, 246);
+}
+
+#name-rating {
+	
+	padding-top:30px;
+	height:30px;
+	font-size:50px;
+}
+
+#name-rating #name {
+	float:left;
+}
+
+#name-rating #stars {
+	float:right;
+}
+
+#city-country {
+	padding-top:40px;
+	padding-bottom: 15px;
+    height: 30px;
+    font-size: 20px;
+    	
+} 
+
+#description {
+	font-size:20px;
+	text-align:justify;
+	
+}
+
+#review-price  {
+	padding-top:30px;
+}
+
+#review-price #price {
+	float:right;
+	font-size:50px;
+}
+
+#dates {
+	float:right;
+}
+
+/* reviews */
+
+#reviews {
+	padding:50px 30px 30px 30px;
+	background-color:rgb(187, 187, 187);
+
+}
+
+#positive{
+	border-bottom-color:rgb(229, 229, 229);
+	border-bottom-style:solid;
+	padding-bottom:30px;
+}
+
+#review-text{
+    padding-top: 12px;
+    margin-left:108px;
+}
+
+#negative{
+	padding-top:30px;
+}
+
+.circle {
+	float:left;
+    border-radius: 50%;
+    width: 75px; 
+    font-size: 32px;
+    border: 0px solid #666;
+	margin-right:30px;
+	background-color:#f0f0f0;
+}
+.circle span {
+    text-align: center;
+    line-height: 75px;
+    display: block;
+}
+
+#rname {
+	font-size:25px;
+	
+}
