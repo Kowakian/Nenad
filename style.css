@@ -68,6 +68,7 @@ button:focus {
 	border-style:solid;
 	border-color:#3e3e3e;
 	border-radius: 5px;
+	margin-bottom:30px;
 }
 
 #wrapper #image {
